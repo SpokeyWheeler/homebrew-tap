@@ -2,16 +2,16 @@
 class Batcher < Formula
   desc "batcher does concurrent mass updates and deletes in a database-friendly way"
   homepage ""
-  version "0.7.12"
+  version "0.7.13"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/SpokeyWheeler/batcher/releases/download/v0.7.12/batcher_0.7.12_Darwin_x86_64.tar.gz"
-    sha256 "1a179118ea28d659802f35473ed4beeb85fb7ca319c2258e25f518bc6765c673"
+    url "https://github.com/SpokeyWheeler/batcher/releases/download/v0.7.13/batcher_0.7.13_Darwin_x86_64.tar.gz"
+    sha256 "690e306cfb60c2535314d6a6f87df72ad342d2c7da7e9f7fcd6ca2c6f06b666c"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/SpokeyWheeler/batcher/releases/download/v0.7.12/batcher_0.7.12_Linux_x86_64.tar.gz"
-    sha256 "bbba11c75073931c5534c2ed6adc3e2e8a8e03f565ed31f27ae76159a363f9f3"
+    url "https://github.com/SpokeyWheeler/batcher/releases/download/v0.7.13/batcher_0.7.13_Linux_x86_64.tar.gz"
+    sha256 "a4b35ce27eacd9231272670ff73a6ba2e981453da96baab78bda78407853ab4d"
   end
 
   def install
